@@ -60,7 +60,7 @@ jobs:
           apiKey: ${{ secrets.DEPENDENCY_TRACK_API_KEY }}
           projectName: ${{ github.event.repository.name }}
           projectVersion: ${{ github.ref_name }}
-          projectTags: 'java,spring-boot'
+          #projectTags: 'java,spring-boot'
           bomFilename: "build/reports/application.cdx.json"
           autoCreate: true
 
