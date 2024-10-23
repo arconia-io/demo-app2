@@ -20,6 +20,21 @@ spring:
       embedding:
         options:
           model: nomic-embed-text
+    openai:
+      chat:
+        enabled: false
+        options:
+          model: gpt-4o
+          temperature: 0.7
+      embedding:
+        enabled: false
+        options:
+          model: text-embedding-3-small
+          dimensions: 768
+      image:
+        enabled: false
+        options:
+          model: dall-e-3
     vectorstore:
       pgvector:
         dimensions: 768

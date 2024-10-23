@@ -38,8 +38,12 @@ dependencies {
 	implementation 'io.opentelemetry:opentelemetry-exporter-otlp'
 	implementation 'io.micrometer:micrometer-registry-otlp'
 	implementation 'io.opentelemetry.instrumentation:opentelemetry-logback-appender-1.0'
+
+	implementation 'org.springframework.ai:spring-ai-openai-spring-boot-starter'
+
 	implementation 'org.springframework.ai:spring-ai-ollama-spring-boot-starter'
 	testImplementation 'org.testcontainers:ollama'
+
 	implementation 'org.springframework.ai:spring-ai-pgvector-store-spring-boot-starter'
 	testImplementation 'org.testcontainers:postgresql'
 	implementation "org.springframework.ai:spring-ai-spring-cloud-bindings"
