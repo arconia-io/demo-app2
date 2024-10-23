@@ -19,7 +19,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ values.repoUrl.owner | lower }}/${{ values.repoUrl.repo }}
+  IMAGE_NAME: arconia-io/demo-app2
   VERSION: ${{ github.sha }}
 
 permissions:
